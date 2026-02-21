@@ -83,7 +83,8 @@ def get_todos():
 # =============================
 
 root = tk.Tk()
-root.attributes("-fullscreen", False)
+root.attributes("-fullscreen", True)
+root.overrideredirect(True)
 root.attributes("-alpha", 1.0)
 
 BG_COLOR = "#6EC6FF"
