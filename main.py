@@ -214,5 +214,4 @@ def next_screen():
 
 show_screen(0)
 root.after(15000, next_screen)
-
 root.mainloop()
